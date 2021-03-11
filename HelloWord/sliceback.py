@@ -1,4 +1,4 @@
-letters = ""
+letters = "abcdefghijklmnopqrstuvwxyz"
 
 backwards = letters[::-1] #Python idiom for reversing order
 print(backwards)
