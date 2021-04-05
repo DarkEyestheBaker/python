@@ -5,10 +5,20 @@ guess = int(input())
 
 if guess < answer:
     print("Please guess higher.")
+    guess = int(input())
+    if guess == answer:
+        print("Well done!  You guessed it!")
+    else:
+        print("Sorry, you have not guessed correctly.")
 elif guess > answer:
     print("Please guess lower.")
+    guess = int(input())
+    if guess == answer:
+        print("Well done!  You guessed it!")
+    else:
+        print("Sorry, you have not guessed correctly.")
 else:
-    print("You got it first time!")
+    print("Well done!  You got it first time!")
 
 # You can have one or more elif print blocks
 # You don't have to include elif.
