@@ -9,3 +9,10 @@ elif guess > answer:
     print("Please guess lower.")
 else:
     print("You got it first time!")
+
+# You can have one or more elif print blocks
+# You don't have to include elif.
+# If you have any elif lines, they come after the if.
+# Elif also has to come before else if there is an else.
+# You don't have to use else, but if you do, it must come after the if.
+# It must also come after any elifs if there are any.
