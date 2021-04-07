@@ -5,7 +5,7 @@ guess = int(input())
 
 if guess == answer:
     print("You got it on the first try!")
-else: 
+else:
     if guess < answer:
         print("Please guess higher.")
     else:   # guess must be greater than answer
