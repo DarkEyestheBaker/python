@@ -3,7 +3,9 @@ answer = 5
 print("Please guess a number between 1 and 10: ")
 guess = int(input())
 
-if guess != answer:
+if guess == answer:
+    print("You got it on the first try!")
+else: 
     if guess < answer:
         print("Please guess higher.")
     else:   # guess must be greater than answer
@@ -13,8 +15,7 @@ if guess != answer:
         print("Well, done!  You guessed it!")
     else:
         print("Sorry, you have not guessed correctly.")
-else:
-    print("You got it on the first try!")
+
 
 # if guess < answer:
 #     print("Please guess higher.")
